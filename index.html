@@ -1,28 +1,509 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Paris Go</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Optimize your visit in Paris, we support English, Chinese, French interface">
+    <meta name="author" content="">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <!--Le HTML5 shim, for IE6-8 support of HTML5 elements-->
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="assets/openicons/font/css/open-iconic-bootstrap.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css?v=1.0.2" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/isotope.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style-responsive.css" rel="stylesheet" type="text/css" />
+    <!-- Le fav and touch icons 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="ico/favicon.ico">
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloading">
+        <img class="loading-gif" src="images/fancy-loading.gif" alt="preloader">
+    </div>
+    <!-- This section is for Splash Screen -->
+    <!--################ NAVIGATION START ################-->
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-purity" role="navigation">
+            <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" width="40" id="logokhan" alt="...">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#top">Home</a>
+                        </li>
+                        <li class="">
+                            <a href="#support">Features</a>
+                        </li>
+                        <li class="">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </div>
+    <!--################ NAVIGATION END ################-->
+    <!--################ WRAP START ################-->
+    <div id="wrap">
+        <!--################ HEADER START ################-->
+        <header id="top" data-stellar-background-ratio="0">
+            <div class="container home">
+                <div class="flexslider home">
+                    <ul class="slides">
+                        <li class="margin5">
+                            <div class="col-md-6 animated fadeInLeftBig" id="main-media">
+                                <iframe width="640" height="390" src="http://www.youtube.com/watch?v=a_lJMOQP0ME" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-5">
+                                <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction </h1>
+                            </div>
+                        </li>
+                        <li class="margintop10p">
+                            <h1><i class="icon-tablet"></i><i class="icon-eye-open icon-2x"></i>
+                                <i class="icon-mobile-phone"></i>
+                                <br />It is optimized for iPhone 5, iPhone 6, and iPhone 6 Plus.</h1>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-header hidden-phone">
+                    <a href="#" class="social-network sn2 behance"></a>
+                    <a href="#" class="social-network sn2 facebook"></a>
+                    <a href="#" class="social-network sn2 pinterest"></a>
+                    <a href="#" class="social-network sn2 flickr"></a>
+                    <a href="#" class="social-network sn2 dribbble"></a>
+                    <a href="#" class="social-network sn2 lastfm"></a>
+                    <a href="#" class="social-network sn2 forrst"></a>
+                    <a href="#" class="social-network sn2 xing"></a>
+                </div>
+            </div>
+            <div id="home-arrow" class="hidden-phone">
+                <a href="#support"><i class="icon-double-angle-down icon-3x" id="iconHome"></i></a>
+            </div>
+        </header>
+        <!--################ HEADER END ################-->
+        <!--################ MAIN CONTAINER START ################-->
+        
+        <!--################ SUPPORT SECTION START ################-->
+        <section id="support" class="paddingbottom40">
+            <div id="support-banner" data-stellar-background-ratio="0.5">
+                <div id="carousel-support" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h1><i class="icon-desktop"></i> iPhone / iPad Support</h1>
+                            <p class="sub-heading-support">Compatible with iPhone, iPad, and iPod touch .</p>
+                        </div>
+                        <div class="item">
+                            <h1><i class="icon-double-angle-up"></i> English, Chinese, French interface</h1>
+                            <p class="sub-heading-support">We support English, French, Simplified Chinese interface .</p>
+                        </div>
+                        <div class="item">
+                            <h1><i class="icon-comments"></i> Study basic French</h1>
+                            <p class="sub-heading-support">You can study basic French expression by our App .</p>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-support" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-support" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="container paddingtop20">
+                <div class="row center">
+                    <div class="col-md-4 col-sm-4  margintop20">
+                        <div class="row text-left">
+                            <div class="col-md-3">
+                                <span class="oi oi-headphones support-icon color1"></span>
+                            </div>
+                            <div class="col-md-9">
+                                <h2>Subway</h2>
+                                <ul class="list-unstyled">
+                                    <li><i class="oi oi-check color1"></i> Plan of subway</li>
+                                    <li><i class="oi oi-check color1"></i> Find station</li>
+                                    <li><i class="oi oi-check color1"></i> List of station and Exit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4   margintop20">
+                        <div class="row text-left">
+                            <div class="col-md-3"><i class="oi oi-chat support-icon color2"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h2>WC</h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span class="oi oi-check color2"></span>&nbsp;Map of Paris</li>
+                                    <li>
+                                        <span class="oi oi-check color2"></span>&nbsp;Location service</li>
+                                    <li>
+                                        <span class="oi oi-check color2"></span>&nbsp;List of WC</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4    margintop20">
+                        <div class="row text-left">
+                            <div class="col-md-3"><i class="oi oi-people support-icon color3"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h2>Visit</h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span class="oi oi-check color3"></span>&nbsp;List of attractions</li>
+                                    <li>
+                                        <span class="oi oi-check color3"></span>&nbsp;Find attractions</li>
+                                    <li>
+                                        <span class="oi oi-check color3"></span>&nbsp;Introduction of attractions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4    margintop40">
+                        <div class="row text-left">
+                            <div class="col-md-3">
+                            </div>
+                            <div class="col-md-9">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4    margintop40">
+                        <div class="row text-left">
+                            <div class="col-md-3"><i class="oi oi-book support-icon"></i>
+                            </div>
+                            <div class="col-md-9">
+                                <h2>French</h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span class="oi oi-circle-check"></span>&nbsp;Study basic French</li>
+                                    <li>
+                                        <span class="oi oi-circle-check"></span>&nbsp;The audio pronunciation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4    margintop40">
+                        <div class="row text-left">
+                            <div class="col-md-3">
+                            </div>
+                            <div class="col-md-9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--################ PORTFOLIO SECTION START ################-->
+        <section class="portfolio home-portfolio">
+            <div class="container" id="portfolio">
+                <div class="row">
+                    <div class="col-md-12 center">
+                        <h1 class="big-heading">Portfolio</h1>
+                        <h4 class="sub-heading">see features of our app...</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="filters_container">
+                            <ul id="filters">
+                                <li><a href="#" data-filter="*" class="active">All</a>
+                                </li>
+                                <li class="separator">/</li>
+                                <li><a href="#" data-filter=".video">Subway</a>
+                                </li>
+                                <li class="separator">/</li>
+                                <li><a href="#" data-filter=".art">WC</a>
+                                </li>
+                                <li class="separator">/</li>
+                                <li><a href="#" data-filter=".illustration">Visit</a>
+                                </li>
+                                <li class="separator">/</li>
+                                <li><a href="#" data-filter=".web">French</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div id="portfolio-container">
+                    <div class="col-md-3 col-sm-3 project">
+                        <img src="parisgo/0.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>App Store</h5>
+                            <a href="parisgo/0.PNG" class="fancybox-media btn btn-normal btn-purity"  target="_blank">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 project video">
+                        <img src="parisgo/subway1.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>Map of subway</h5>
+                            <a href="parisgo/subway1.PNG" class="fancybox-media btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 project video">
+                        <img src="parisgo/subway2.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>List of subway</h5>
+                            <a href="parisgo/subway2.PNG" class="fancybox-media btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 project video">
+                        <img src="parisgo/subway3.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>List of station</h5>
+                            <a href="parisgo/subway3.PNG" class="fancybox-media btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 project video">
+                        <img src="parisgo/subway4.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>List of Exit</h5>
+                            <a href="parisgo/subway4.PNG" class="fancybox-media btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 project art">
+                        <img src="parisgo/wc1.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>Map of Paris</h5>
+                            <a href="parisgo/wc1.PNG" class="btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 project art">
+                        <img src="parisgo/wc2.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>List of WC</h5>
+                            <a href="parisgo/wc2.PNG" class="btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 project art">
+                        <img src="parisgo/wc3.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>Location service</h5>
+                            <a href="parisgo/wc3.PNG" class="btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 project illustration">
+                        <img src="parisgo/visit1.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>List of tourist place</h5>
+                            <a href="parisgo/visit1.PNG" class="btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 project illustration">
+                        <img src="parisgo/visit2.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>Introduction</h5>
+                            <a href="parisgo/visit2.PNG" class="btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 project web">
+                        <img src="parisgo/french1.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>Expression type</h5>
+                            <a href="parisgo/french1.PNG" class="btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 project web">
+                        <img src="parisgo/french2.PNG" alt="" class="project-img">
+                        <span class="overlay"></span>
+                        <div class="cnt">
+                            <h5>List of expression</h5>
+                            <a href="parisgo/french2.PNG" class="btn btn-normal btn-purity" target="_blank">View details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--################ CONTACT SECTION START ################-->
+        <section id="contact" class="margintop40">
+            <div id="contact-background" data-stellar-background-ratio="0">
+                <h1>Contact Us</h1>
+                <p class="sub-heading-contact">WHERE WE WORK</p>
+            </div>
+            <div class="container paddingbot20">
+                <div class="row margintop20">
+                    <div class="col-md-6 col-sm-6">
+                        <h2 class="big-h2-heading"><i class="oi oi-envelope-open"></i> Contact Us</h2>
+                        <p>Let us know what you think and we will get back to you with a cool reply!</p>
+                        <form role="form" class="form-main" id="contact_form" method="post">
+                            <div class="form-group">
+                                <!--  <label for="yourName">Your Name</label> -->
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="yourEmail">Your Email</label> -->
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="yourMessage">Message</label> -->
+                                <textarea name="message" class="form-control" id="message" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button id="submit_btn" type="submit" class="btn btn-purity btn-lg btn-block">Submit</button>
+                        </form>
+                        <div id="result"></div>
+                    </div>
+                    <div class="col-md-6  col-sm-6">
+                        <h2 class="big-h2-heading"><i class="oi oi-map"></i> Find Us</h2>
+                        <p>Let us know what you think and we will get back to you with a cool reply!</p>
+                        <p><i class="icon-road"></i> Street Name - 1314, Our Land, Earth</p>
+                        <p><i class="icon-home"></i> Beijing</p>
+                        <p><i class="icon-phone"></i> +86-010-88888888</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--################ CONTACT SECTION END ################-->
+
+        <!--################ BOTTOM SECTION START ################-->
+        <section id="bottom" class="paddingbot20">
+            <div class="container paddingtop20">
+                <div class="row center">
+                    <h2></h2>
+                </div>
+                <div class="row center">
+                    <div class="as-seen">
+                        <div class="col-md-2  col-sm-4 col-xs-6 ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--################ BOTTOM SECTION END ################-->
+    </div>
+    <!--################ PUSH WILL KEEP THE FOOTER AT BOTTOM IF YOU WANT TO CREATE OTHER PAGES ################-->
+    <div id="push"></div>
+    <!--################ FOOTER START ################-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <!--<h2>about us...</h2>-->
+                    <img src="images/logo.png" alt="...">
+                    <p>
+                        <br /></p>
+                    <p class="copyright">
+                        © 2014 Paris Go 
+                        <br />Built with BS3
+                    </p>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h2>links</h2>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#" class="flink">About Us</a>
+                        </li>
+                        <li><a href="#" class="flink">The Team</a>
+                        </li>
+                        <li><a href="#" class="flink">Blog</a>
+                        </li>
+                        <li><a href="#" class="flink">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h2>subscribe</h2>
+                    <a href="#" class="social-network sn2 behance"></a>
+                    <a href="#" class="social-network sn2 facebook"></a>
+                    <a href="#" class="social-network sn2 pinterest"></a>
+                    <a href="#" class="social-network sn2 flickr"></a>
+                    <a href="#" class="social-network sn2 dribbble"></a>
+                    <a href="#" class="social-network sn2 lastfm"></a>
+                    <a href="#" class="social-network sn2 forrst"></a>
+                    <a href="#" class="social-network sn2 xing"></a>
+                </div>
+                <div class="col-md-3  col-sm-6">
+                    <h2 class="center"><i class="icon-twitter"></i>
+                    </h2>
+                    <div class="tweets" data-username="hunzaboy" data-count="2"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--################ FOOTER END ################-->
+    <!--################ JAVASCRIPTS ################-->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" charset="utf-8" src="assets/twitter/jquery.tweet.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.2"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.0"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/nicescroll.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/custom-home.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/retina.js"></script>
+    <!-- ajax contact form script -->
+    <script type="text/javascript" src="js/mail.js"></script>
+    <!-- Preloader script -->
+    <script>
+    $(window).load(function() {
+        "use strict";
+        $('.preloading').fadeOut();
+    });
+    </script>
+
+    <!-- *************** RETINA JS FUNCTIONALITY   ****************
+The script assumes you use Apple's prescribed high-resolution modifier (@2x) to denote
+high-resolution image variants on your server.
+For example, if you have an image on your page that looks like this:
+<img src="/images/my_image.png" />
+The script will check your server to see if an alternative image exists at this path:
+"/images/my_image@2x.png"
+That's it!
+:)
+RETINA JS END -->
+
+</body>
+
 </html>
