@@ -213,6 +213,10 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  	background-size:100% 100%;      
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader
+     (src='image/path/name.png',sizingMethod='scale');
+    }
 }
 .btn-landing {
     text-shadow: 0 -1px 0 #6c9a15;
